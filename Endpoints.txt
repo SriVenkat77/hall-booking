@@ -1,0 +1,11 @@
+Endpoint: POST /rooms  // Create a Room
+
+Endpoint: POST /book  // Book a Room
+
+Endpoint: GET /rooms  //  List All Rooms with Booked Data
+
+Endpoint: GET /customers  // List All Customers with Booked Data
+
+Endpoint: GET /customers/:name/bookings  // List How Many Times a Customer Has Booked a Room
+
+Example Request URL: GET /customers/John%20Doe/bookings 
